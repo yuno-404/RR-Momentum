@@ -1,0 +1,31 @@
+{
+  "run_at": "2026-03-20 00:24:34",
+  "config": {
+    "universe": "sp1500",
+    "years": 10,
+    "initial_capital": 100000.0,
+    "min_rs": 85,
+    "rr_min": 2.0,
+    "stop_pct": 0.08,
+    "position_pct": 0.125,
+    "max_hold_days": 60,
+    "max_positions": 8,
+    "workers": 16,
+    "engine": "thread"
+  },
+  "performance": {
+    "total_return_pct": 146.01,
+    "cagr_pct": 9.64,
+    "sharpe": 0.601,
+    "sortino": 0.831,
+    "mdd_pct": 35.51,
+    "calmar": 0.272
+  },
+  "trade_stats": {
+    "trades": 833,
+    "win_rate_pct": 32.41,
+    "avg_r": 0.129,
+    "profit_factor": 1.175,
+    "avg_hold_days": 27.24
+  }
+}

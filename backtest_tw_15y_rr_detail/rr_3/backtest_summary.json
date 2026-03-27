@@ -1,0 +1,54 @@
+{
+  "run_at": "2026-03-28 00:35:30",
+  "config": {
+    "universe": "tw",
+    "market": "tw",
+    "years": 15,
+    "initial_capital": 100000.0,
+    "min_rs": 85,
+    "rr_min": 3.0,
+    "stop_pct": 0.08,
+    "position_pct": 0.125,
+    "max_positions": 8,
+    "workers": 3,
+    "engine": "process",
+    "breakout_buffer_pct": 0.0,
+    "f4_exit_days": 0,
+    "f3_exit_days": 0,
+    "regime_filter": "on",
+    "choppy_max_positions": 4,
+    "choppy_capital_fraction": 0.5
+  },
+  "performance": {
+    "total_return_pct": 70.95,
+    "cagr_pct": 3.81,
+    "sharpe": 0.699,
+    "sortino": 0.643,
+    "mdd_pct": 15.96,
+    "calmar": 0.239
+  },
+  "trade_stats": {
+    "trades": 395,
+    "win_rate_pct": 45.82,
+    "avg_r": 0.916,
+    "profit_factor": 1.542,
+    "avg_hold_days": 10.95
+  },
+  "regime_stats": {
+    "UPTREND": {
+      "trades": 273,
+      "win_rate_pct": 43.96,
+      "avg_r": 0.479
+    },
+    "CHOPPY": {
+      "trades": 122,
+      "win_rate_pct": 50.0,
+      "avg_r": 1.895
+    },
+    "DOWNTREND": {
+      "trades": 0,
+      "win_rate_pct": 0.0,
+      "avg_r": 0.0
+    }
+  }
+}

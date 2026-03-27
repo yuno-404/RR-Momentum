@@ -1,0 +1,92 @@
+{
+  "run_at": "2026-03-27 23:47:31",
+  "config": {
+    "universe": "tw",
+    "years": 15,
+    "initial_capital": 100000.0,
+    "min_rs": 85,
+    "rr_grid": [
+      2.5,
+      3.0,
+      3.5
+    ],
+    "regime_filter": "on"
+  },
+  "ranking": [
+    {
+      "rr_min": 2.5,
+      "total_return_pct": 130.31,
+      "cagr_pct": 5.99,
+      "sharpe": 0.866,
+      "sortino": 0.98,
+      "mdd_pct": 14.44,
+      "calmar": 0.415,
+      "trades": 617,
+      "win_rate_pct": 53.32,
+      "avg_r": 0.848,
+      "profit_factor": 1.463,
+      "avg_hold_days": 13.68,
+      "output": "./backtest_tw_15y_rr_compare\\rr_2_5"
+    },
+    {
+      "rr_min": 3.0,
+      "total_return_pct": 83.67,
+      "cagr_pct": 4.33,
+      "sharpe": 0.791,
+      "sortino": 0.787,
+      "mdd_pct": 14.34,
+      "calmar": 0.302,
+      "trades": 403,
+      "win_rate_pct": 51.86,
+      "avg_r": 0.912,
+      "profit_factor": 1.597,
+      "avg_hold_days": 11.45,
+      "output": "./backtest_tw_15y_rr_compare\\rr_3"
+    },
+    {
+      "rr_min": 3.5,
+      "total_return_pct": 42.67,
+      "cagr_pct": 2.51,
+      "sharpe": 0.619,
+      "sortino": 0.471,
+      "mdd_pct": 7.68,
+      "calmar": 0.327,
+      "trades": 260,
+      "win_rate_pct": 48.46,
+      "avg_r": 0.974,
+      "profit_factor": 1.577,
+      "avg_hold_days": 9.22,
+      "output": "./backtest_tw_15y_rr_compare\\rr_3_5"
+    }
+  ],
+  "best_by_cagr": {
+    "rr_min": 2.5,
+    "total_return_pct": 130.31,
+    "cagr_pct": 5.99,
+    "sharpe": 0.866,
+    "sortino": 0.98,
+    "mdd_pct": 14.44,
+    "calmar": 0.415,
+    "trades": 617,
+    "win_rate_pct": 53.32,
+    "avg_r": 0.848,
+    "profit_factor": 1.463,
+    "avg_hold_days": 13.68,
+    "output": "./backtest_tw_15y_rr_compare\\rr_2_5"
+  },
+  "best_by_sharpe": {
+    "rr_min": 2.5,
+    "total_return_pct": 130.31,
+    "cagr_pct": 5.99,
+    "sharpe": 0.866,
+    "sortino": 0.98,
+    "mdd_pct": 14.44,
+    "calmar": 0.415,
+    "trades": 617,
+    "win_rate_pct": 53.32,
+    "avg_r": 0.848,
+    "profit_factor": 1.463,
+    "avg_hold_days": 13.68,
+    "output": "./backtest_tw_15y_rr_compare\\rr_2_5"
+  }
+}

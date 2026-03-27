@@ -1,0 +1,4 @@
+rr_min,total_return_pct,cagr_pct,sharpe,sortino,mdd_pct,calmar,trades,win_rate_pct,avg_r,profit_factor,avg_hold_days,output
+2.5,130.31,5.99,0.866,0.98,14.44,0.415,617,53.32,0.848,1.463,13.68,./backtest_tw_15y_rr_compare\rr_2_5
+3.0,83.67,4.33,0.791,0.787,14.34,0.302,403,51.86,0.912,1.597,11.45,./backtest_tw_15y_rr_compare\rr_3
+3.5,42.67,2.51,0.619,0.471,7.68,0.327,260,48.46,0.974,1.577,9.22,./backtest_tw_15y_rr_compare\rr_3_5

@@ -1,0 +1,3 @@
+ticker,entry_date,exit_date,entry,exit,shares,pnl,r_multiple,hold_days,reason
+NVDA,2024-10-28,2024-12-16,142.9433,131.5079,87.4472,-1000.0,-1.0,49,STOP
+NVDA,2025-01-06,2025-01-10,148.5413,136.658,83.3102,-990.0,-1.0,4,STOP

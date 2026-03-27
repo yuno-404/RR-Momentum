@@ -1,0 +1,33 @@
+# Cache
+backtest_cache/
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+
+# Output
+backtest_results/
+backtest_smoke/
+backtest_smoke_fast/
+
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.pub
+credentials.json
+*credentials*.json
+*secret*.json
+*token*.json
+
+# Local assistant config
+.claude/

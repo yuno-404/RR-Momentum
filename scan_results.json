@@ -1,0 +1,227 @@
+{
+  "scan_date": "2026-03-27 23:23",
+  "market": "us",
+  "regime": "CHOPPY",
+  "index_data": {
+    "NASDAQ": {
+      "price": 21115.92,
+      "ma50": 22763.87,
+      "ma200": 22301.79,
+      "above_ma50": false,
+      "above_ma200": false,
+      "ma50_above_ma200": true,
+      "ma50_rising": false,
+      "ma200_rising": true
+    }
+  },
+  "candidates": [
+    {
+      "ticker": "VLO",
+      "sector": "Energy",
+      "cap": "large",
+      "price": 253.43,
+      "high_52w": 253.65,
+      "distance_from_high": 0.1,
+      "rally_from_base": 163.5,
+      "rs_rank": 96,
+      "rs_rising": true,
+      "ma": {
+        "ma50": 208.58,
+        "ma200": 169.67,
+        "ma50_slope": "up",
+        "ma200_slope": "up",
+        "alignment": "bullish"
+      },
+      "vcp": {
+        "profile": "us_strict",
+        "depths": [
+          12.2,
+          8.1,
+          5.9
+        ],
+        "last_contraction": 5.9,
+        "decreasing": true,
+        "vol_declining": true,
+        "vol_dryup_day": true,
+        "c1_depth_ok": true,
+        "c3_tight": true,
+        "low3_higher_than_low1": true,
+        "c1_depth": 12.2,
+        "c2_depth": 8.1,
+        "c3_depth": 5.9,
+        "low1": 158.93,
+        "low3": 194.58,
+        "blocking_conditions": [],
+        "contractions": [
+          {
+            "depth": 12.2,
+            "high_idx": 1175,
+            "low_idx": 1187,
+            "high_price": 180.94,
+            "low_price": 158.93,
+            "avg_vol": 2909076.923076923
+          },
+          {
+            "depth": 8.1,
+            "high_idx": 1201,
+            "low_idx": 1217,
+            "high_price": 190.83,
+            "low_price": 175.43,
+            "avg_vol": 3479452.9411764704
+          },
+          {
+            "depth": 5.9,
+            "high_idx": 1225,
+            "low_idx": 1232,
+            "high_price": 206.77,
+            "low_price": 194.58,
+            "avg_vol": 2211925.0
+          }
+        ]
+      },
+      "rr_to_52w": 0.0,
+      "rr_breakout": 0.0,
+      "rr_info": {
+        "rr_to_52w": 0.0,
+        "rr_breakout": 0.0,
+        "stop_pct": 5.9,
+        "target_52w": 253.65,
+        "target_breakout": 232.0,
+        "pivot": 206.77
+      },
+      "resistance_levels": [
+        {
+          "price": 130.77,
+          "touches": 7,
+          "band_low": 128.85,
+          "band_high": 133.53,
+          "last_touch": "2025-05-13 00:00:00"
+        },
+        {
+          "price": 139.9,
+          "touches": 5,
+          "band_low": 138.37,
+          "band_high": 141.36,
+          "last_touch": "2025-06-17 00:00:00"
+        },
+        {
+          "price": 175.29,
+          "touches": 2,
+          "band_low": 174.34,
+          "band_high": 176.23,
+          "last_touch": "2025-09-26 00:00:00"
+        }
+      ],
+      "nearest_resistance": 175.29,
+      "distance_to_resistance_pct": -30.83,
+      "resistance_status": "BREAK_ABOVE",
+      "industry_leader": null,
+      "industry_leader_strong": null,
+      "industry_leader_score": null
+    },
+    {
+      "ticker": "EQT",
+      "sector": "Energy",
+      "cap": "large",
+      "price": 67.78,
+      "high_52w": 68.24,
+      "distance_from_high": 0.7,
+      "rally_from_base": 57.4,
+      "rs_rank": 85,
+      "rs_rising": true,
+      "ma": {
+        "ma50": 59.43,
+        "ma200": 55.65,
+        "ma50_slope": "up",
+        "ma200_slope": "up",
+        "alignment": "bullish"
+      },
+      "vcp": {
+        "profile": "us_strict",
+        "depths": [
+          10.8,
+          7.3,
+          5.6
+        ],
+        "last_contraction": 5.6,
+        "decreasing": true,
+        "vol_declining": true,
+        "vol_dryup_day": true,
+        "c1_depth_ok": true,
+        "c3_tight": true,
+        "low3_higher_than_low1": true,
+        "c1_depth": 10.8,
+        "c2_depth": 7.3,
+        "c3_depth": 5.6,
+        "low1": 49.12,
+        "low3": 59.5,
+        "blocking_conditions": [],
+        "contractions": [
+          {
+            "depth": 10.8,
+            "high_idx": 1195,
+            "low_idx": 1206,
+            "high_price": 55.04,
+            "low_price": 49.12,
+            "avg_vol": 10250158.333333334
+          },
+          {
+            "depth": 7.3,
+            "high_idx": 1216,
+            "low_idx": 1220,
+            "high_price": 58.12,
+            "low_price": 53.86,
+            "avg_vol": 8973680.0
+          },
+          {
+            "depth": 5.6,
+            "high_idx": 1237,
+            "low_idx": 1247,
+            "high_price": 63.06,
+            "low_price": 59.5,
+            "avg_vol": 8534345.454545455
+          }
+        ]
+      },
+      "rr_to_52w": 0.1,
+      "rr_breakout": 0.6,
+      "rr_info": {
+        "rr_to_52w": 0.1,
+        "rr_breakout": 0.6,
+        "stop_pct": 5.6,
+        "target_52w": 68.24,
+        "target_breakout": 69.87,
+        "pivot": 63.06
+      },
+      "resistance_levels": [
+        {
+          "price": 21.57,
+          "touches": 5,
+          "band_low": 21.44,
+          "band_high": 21.77,
+          "last_touch": "2021-10-26 00:00:00"
+        },
+        {
+          "price": 33.68,
+          "touches": 4,
+          "band_low": 33.29,
+          "band_high": 34.25,
+          "last_touch": "2024-08-26 00:00:00"
+        },
+        {
+          "price": 43.18,
+          "touches": 7,
+          "band_low": 42.46,
+          "band_high": 44.16,
+          "last_touch": "2023-11-03 00:00:00"
+        }
+      ],
+      "nearest_resistance": 43.18,
+      "distance_to_resistance_pct": -36.29,
+      "resistance_status": "BREAK_ABOVE",
+      "industry_leader": null,
+      "industry_leader_strong": null,
+      "industry_leader_score": null
+    }
+  ]
+}

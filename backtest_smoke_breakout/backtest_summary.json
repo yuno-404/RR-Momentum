@@ -1,0 +1,32 @@
+{
+  "run_at": "2026-03-20 00:28:16",
+  "config": {
+    "universe": "AAPL,MSFT,NVDA,TSLA",
+    "years": 2,
+    "initial_capital": 100000.0,
+    "min_rs": 85,
+    "rr_min": 2.0,
+    "stop_pct": 0.08,
+    "position_pct": 0.125,
+    "max_hold_days": 60,
+    "max_positions": 8,
+    "workers": 4,
+    "engine": "thread",
+    "breakout_buffer_pct": 0.0
+  },
+  "performance": {
+    "total_return_pct": -1.99,
+    "cagr_pct": -1.12,
+    "sharpe": -0.781,
+    "sortino": -0.385,
+    "mdd_pct": 2.49,
+    "calmar": -0.448
+  },
+  "trade_stats": {
+    "trades": 2,
+    "win_rate_pct": 0.0,
+    "avg_r": -1.0,
+    "profit_factor": 0.0,
+    "avg_hold_days": 26.5
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "run_at": "2026-03-20 01:33:23",
+  "config": {
+    "universe": "sp1500",
+    "years": 5,
+    "initial_capital": 100000.0,
+    "min_rs": 85,
+    "rr_min": 3.0,
+    "stop_pct": 0.08,
+    "position_pct": 0.125,
+    "max_positions": 8,
+    "workers": 3,
+    "engine": "process",
+    "breakout_buffer_pct": 0.0,
+    "f4_exit_days": 2,
+    "f3_exit_days": 3,
+    "regime_filter": "off",
+    "choppy_max_positions": 4
+  },
+  "performance": {
+    "total_return_pct": 4.48,
+    "cagr_pct": 0.92,
+    "sharpe": 0.136,
+    "sortino": 0.172,
+    "mdd_pct": 25.49,
+    "calmar": 0.036
+  },
+  "trade_stats": {
+    "trades": 129,
+    "win_rate_pct": 24.03,
+    "avg_r": 0.051,
+    "profit_factor": 1.092,
+    "avg_hold_days": 43.49
+  },
+  "regime_stats": {
+    "UPTREND": {
+      "trades": 129,
+      "win_rate_pct": 24.03,
+      "avg_r": 0.051
+    },
+    "CHOPPY": {
+      "trades": 0,
+      "win_rate_pct": 0.0,
+      "avg_r": 0.0
+    },
+    "DOWNTREND": {
+      "trades": 0,
+      "win_rate_pct": 0.0,
+      "avg_r": 0.0
+    }
+  }
+}
